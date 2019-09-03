@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<include file="include/head" title="登录" />
+	</head>
+	<body style=" background:#E0F8F9">
+		<div class="" style=" padding-bottom:30px;">
+			<img src="{$_CFG.site.reg_pic}" style=" width:100%;" />
+		</div>
+		<div class="container" style=" padding-bottom:20px;">
+			<form method="post">
+			<div class="form-group" style=" margin-top:15px;">
+			  <input type="text" class="form-control" name="mobile" placeholder="请输入手机号" >
+			</div>
+			<div class="form-group">
+			  <input type="password" class="form-control" name="pass" placeholder="请输入登录密码" >
+			</div>
+			
+			<button type="button" onclick="ajaxFormSubmit()"  class="btn btn-primary btn-lg btn-block">提交登录</button>
+			<button type="button" onclick="location.href='{:U('reg')}'" class="btn btn-default btn-lg btn-block">没有账号，点击注册</button>
+			</form>
+		</div>
+		<include file="include/common" />
+	</body>
+</html>

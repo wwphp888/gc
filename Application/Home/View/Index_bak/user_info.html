@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<include file="include/head" title="完善资料" />
+	</head>
+	<body style="background: #66FFFF;">
+		<include file="include/ucenter_top" />
+		<div class="addr-content">
+			<div class="addr-item">
+				请完善你的收货信息
+				<a href="{:U('ucenter')}" class="back2ucenter">返回 <span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+			<div class="addr-form">
+				<form method="post" action="#" id="form" name="form">
+					<div class="addr-input">
+						<span style=" width:5em; display:inline-block;">姓名：</span>
+						<input type="text" name="name" value="{$user.name}" class="name"/>
+					</div>
+					<div class="addr-input">
+						联系电话：
+						<input type="text" name="mobile" value="{$user.mobile}" disabled />
+					</div>
+					<div class="addr-input">
+						收货地址：
+						<input type="text" name="addr" value="{$user.addr}"/>
+					</div>
+					<div class="addr-btn">
+						<a href="javascript:;" onclick="ajaxFormSubmit()">确&nbsp;定</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<include file="include/bottom" />
+	</body>
+</html>

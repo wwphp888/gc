@@ -1,0 +1,92 @@
+<div class="pageheader notab">
+    <h1 class="pagetitle">会员管理</h1>
+</div><!--pageheader-->                
+<div id="contentwrapper" class="contentwrapper lineheight21">			
+	<div class="tableoptions">        				
+		<form method="post">
+			手机:<input type="text" name="mobile" value="{$_GET['mobile']}" class="smallinput" style="width:100px;" />		姓名:<input type="text" name="name" value="{$_GET['name']}" class="smallinput" style="width:100px;" />			用户ID:<input type="text" name="id" value="{$_GET['id']}" class="smallinput" style="width:100px;" />			<input type="submit" value="查找" />
+		</form>			
+	</div><!--tableoptions-->			
+	<form action="" method="post">			
+		<table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">				
+			<thead>					
+				<tr>						
+					<!-- <th class="head1">
+						<input type="checkbox" class="check_all">
+					</th> -->						
+					<th class="head1">编号</th>
+					<!--th class="head0" style=" width:280px">OPENID</th-->
+					<th class="head0">昵称</th>						
+					<th class="head0">手机</th>						
+					<th class="head0">注册日期</th>						
+					<th class="head0">上级</th>						
+					<th class="head0">余额</th>						
+					<!-- <th class="head0">盈亏</th>						
+					<th class="head0">下单量</th>						
+					<th class="head0">通道会员</th>	 -->					
+					<th class="head0">累计佣金</th>						
+					<th class="head0">累计提现</th>						
+					<th class="head0">操作</th>					
+				</tr>				
+			</thead>				
+			<tbody>
+				
+				<volist name="list" id="vo">					
+					<tr>					    
+						<!-- <td>
+							<input type="checkbox" name="id[]" value="{$vo.id}">
+						</td> -->					
+						<td>{$vo.id}</td>
+						<!--td>{$vo.openid}</td-->						
+						<td>{:urldecode($vo['nickname'])}</td>						
+						<td>{$vo.login_name}</td>						
+						<td>{$vo.sub_time|date="Y-m-d H:i",###}</td>						
+						<td><if condition = "$vo['parent1'] gt 0">{$vo.parent1}</if></td>						
+						<td>							
+							{$vo.money}
+						</td>						
+						<!-- <td>		
+							{$vo.yingkui}
+						</td>                       
+						<td> {$vo.num} </td>						
+						<td>						
+							<if condition="$vo['is_tong'] eq 1">是</if>
+							<if condition="$vo['is_tong'] eq 0">否</if>
+						</td> -->
+						<td>
+							<a href="{:U('Finance/expense?user_id='.$vo['id'])}">{$vo.expense}</a>
+						</td>											
+						<td>							
+							<a href="{:U('Finance/withdraw?user_id='.$vo['id'])}">{$vo.withdraw}</a>
+						</td>
+						<td class="center">							
+							<a href="{:U('charge', 'id='.$vo['id'])}">充值</a> |
+							<!-- <a href="{:U('edit', 'id='.$vo['id'])}">修改</a> |--> 							
+							<a href="{:U('del', 'id='.$vo['id'])}" onclick="return confirm('你确实要删除这个会员吗？')">删除 </a>|
+							<a href="{:U('parent1', 'id='.$vo['id'])}">我的下级</a>
+                                                        <a href="{:U('setAgentAccount', 'user_id='.$vo['id'])}">设置代理</a>
+						</td>
+					</tr>					
+				</volist>
+		
+							
+			</tbody>			
+		</table>			
+		<!-- <div style="margin:30px;">			
+			<input value="成为通道会员" type="submit" name="tongdao">&nbsp; &nbsp;&nbsp;			
+			<input value="取消通道会员" type="submit" name="tongdao">&nbsp; &nbsp;&nbsp;			
+		</div> -->			
+	</form>			
+	<div class="dataTables_paginate paging_full_numbers" id="dyntable2_paginate">			
+		{$page|default="<p style='text-align:center'>暂时没有数据</p>"}			
+	</div>                
+	</div><!--contentwrapper-->       
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>       
+	<script type="text/javascript">       	
+		$(function(){           
+			$(".check_all").click(function(){            
+				var checked = $(this).get(0).checked;           
+				$("input[type=checkbox]").attr("checked", checked);
+	        });        
+		});       
+	</script>

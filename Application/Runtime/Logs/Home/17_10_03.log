@@ -1,0 +1,1636 @@
+[ 2017-10-03T01:20:20+08:00 ] 125.92.37.92 /index.php?mid=1&from=qrcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964820  [ RunTime:0.0004s ]
+
+[ 2017-10-03T01:20:30+08:00 ] 125.92.37.92 /index.php?mid=12&from=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964830  [ RunTime:0.0002s ]
+
+[ 2017-10-03T01:20:32+08:00 ] 125.92.37.92 /index.php?mid=12&from=&code=061heB4x1bGgQb0PY92x1LPG4x1heB4a&state=dragondean
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0010s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964831  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `dd_user` WHERE `openid` = 'ofQh2wFweaKD2OlUpvn6p7BrBGro' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964828  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2239 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-10-03T01:20:35+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=kai&id=2239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0010s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964835  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964831  [ RunTime:0.0002s ]
+SQL: UPDATE `dd_kailog` SET `status`='2',`isid`='3',`cainum`='990',`zhongnum`='543' WHERE `id` = 2239 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `kid` = 2239 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 AND `id` = 2239 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `status` = 2 AND `kid` = 2239 AND `uid` = 12 ORDER BY yingmoney desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-10-03T01:20:37+08:00 ] 117.185.27.114 /index.php?mid=1&from=qrcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964837  [ RunTime:0.0002s ]
+
+[ 2017-10-03T01:20:39+08:00 ] 101.226.65.102 /index.php?mid=1&from=qrcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0014s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964839  [ RunTime:0.0003s ]
+
+[ 2017-10-03T01:20:39+08:00 ] 101.226.65.102 /index.php?m=&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964839  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 231 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 234 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 237 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 240 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000194s ]
+
+[ 2017-10-03T01:20:40+08:00 ] 117.185.27.115 /index.php?mid=12&from=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964840  [ RunTime:0.0003s ]
+
+[ 2017-10-03T01:20:40+08:00 ] 117.185.27.115 /index.php?mid=12&from=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964840  [ RunTime:0.0002s ]
+
+[ 2017-10-03T01:20:47+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964847  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964843  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `dd_kailog` (`starttime`,`endtime`,`status`) VALUES ('1506964847','1506964877','1') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2240 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-10-03T01:20:47+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964847  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-10-03T01:20:51+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=lishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964851  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0776s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-10-03T01:20:57+08:00 ] 117.185.27.115 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964857  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T01:20:57+08:00 ] 117.185.27.115 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0010s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964857  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T01:21:01+08:00 ] 117.185.27.114 /index.php?m=&c=Index&a=lishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0010s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964861  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T01:21:10+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964870  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-10-03T01:21:10+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964870  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964866  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2240 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2017-10-03T01:21:11+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964871  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2017-10-03T01:21:12+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0010s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964872  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964868  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2240 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2017-10-03T01:21:13+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0010s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964873  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2017-10-03T01:21:14+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964874  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964870  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2240 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2017-10-03T01:21:15+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964875  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2017-10-03T01:21:16+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964875  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964871  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2240 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2017-10-03T01:21:17+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964877  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2017-10-03T01:21:17+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964877  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964873  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2240 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000126s ]
+
+[ 2017-10-03T01:21:18+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964878  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2017-10-03T01:21:19+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0013s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964879  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964875  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2240 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000184s ]
+
+[ 2017-10-03T01:21:20+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964880  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2017-10-03T01:21:21+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964881  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964877  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2240 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000123s ]
+
+[ 2017-10-03T01:21:22+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0013s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964882  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000128s ]
+
+[ 2017-10-03T01:21:22+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964882  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964878  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2240 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2017-10-03T01:21:23+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964883  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2017-10-03T01:21:24+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0013s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964884  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964880  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2240 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2017-10-03T01:21:26+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=kai&id=2240
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964886  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964882  [ RunTime:0.0002s ]
+SQL: UPDATE `dd_kailog` SET `status`='2',`isid`='2',`cainum`='609',`zhongnum`='518' WHERE `id` = 2240 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `kid` = 2240 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 AND `id` = 2240 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `status` = 2 AND `kid` = 2240 AND `uid` = 12 ORDER BY yingmoney desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2017-10-03T01:21:36+08:00 ] 125.92.37.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964896  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964892  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `dd_kailog` (`starttime`,`endtime`,`status`) VALUES ('1506964896','1506964926','1') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2241 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2017-10-03T01:21:53+08:00 ] 125.92.37.92 /index.php?mid=12&from=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964913  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506964909  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 12 AND `kid` = 2241 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-10-03T01:21:56+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964916  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2017-10-03T01:22:00+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964920  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2017-10-03T01:22:10+08:00 ] 117.185.27.114 /index.php?m=&c=Index&a=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0010s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964930  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T01:22:21+08:00 ] 125.92.37.92 /index.php?m=&c=Index&a=usercode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964941  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-10-03T01:22:31+08:00 ] 117.185.27.114 /index.php?m=&c=Index&a=usercode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964951  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T01:23:11+08:00 ] 101.226.33.206 /index.php?mid=1&from=qrcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964991  [ RunTime:0.0002s ]
+
+[ 2017-10-03T01:23:14+08:00 ] 101.226.125.111 /index.php?mid=12&from=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964994  [ RunTime:0.0002s ]
+
+[ 2017-10-03T01:23:14+08:00 ] 101.226.65.104 /index.php?mid=12&from=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506964994  [ RunTime:0.0003s ]
+
+[ 2017-10-03T01:23:25+08:00 ] 61.151.226.189 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506965005  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T01:23:25+08:00 ] 140.207.124.105 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506965005  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T01:24:22+08:00 ] 101.226.68.161 /index.php?m=&c=Index&a=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506965062  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T01:24:38+08:00 ] 101.226.33.216 /index.php?m=&c=Index&a=usercode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506965078  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T05:55:01+08:00 ] 106.11.227.123 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0014s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506981301  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T05:55:02+08:00 ] 106.11.227.123 /index.php?m=&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506981301  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 231 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 234 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 237 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 240 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2017-10-03T06:08:45+08:00 ] 106.11.225.111 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506982125  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T06:08:45+08:00 ] 106.11.225.111 /index.php?m=&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506982125  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 231 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 234 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 237 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 240 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-10-03T07:16:16+08:00 ] 117.136.62.161 /index.php?mid=22&from=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0013s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506986176  [ RunTime:0.0004s ]
+
+[ 2017-10-03T07:16:17+08:00 ] 117.136.62.161 /index.php?mid=22&from=&code=061WJ6wa2VqH7S0VJ3wa2yvYva2WJ6wm&state=dragondean
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506986177  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `dd_user` WHERE `openid` = 'ofQh2wEI-ZTqcMJGN-nxT3mdRDes' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506986173  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `uid` = 22 AND `kid` = 2241 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 492 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 495 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 498 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 501 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 507 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2017-10-03T07:16:21+08:00 ] 117.136.62.161 /index.php?m=&c=Index&a=ucenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506986181  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: fanli C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 289 行.
+NOTIC: [8] Undefined index: pickup C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 314 行.
+NOTIC: [8] Undefined index: reward_lazy C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 326 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 725 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 728 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 731 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 734 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\9d3ba788dbc807d82a5aae9931cea485.php 第 740 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-10-03T07:16:23+08:00 ] 117.136.62.161 /index.php?m=&c=Index&a=kai&id=2241
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506986183  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 1 AND `endtime` < 1506986179  [ RunTime:0.0003s ]
+SQL: UPDATE `dd_kailog` SET `status`='2',`isid`='4',`cainum`='855',`zhongnum`='565' WHERE `id` = 2241 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `kid` = 2241 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` WHERE `status` = 2 AND `id` = 2241 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_buylog` WHERE `status` = 2 AND `kid` = 2241 AND `uid` = 22 ORDER BY yingmoney desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000209s ]
+
+[ 2017-10-03T07:16:24+08:00 ] 117.185.27.113 /index.php?mid=22&from=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506986184  [ RunTime:0.0002s ]
+
+[ 2017-10-03T07:16:26+08:00 ] 117.185.27.113 /index.php?mid=22&from=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506986186  [ RunTime:0.0002s ]
+
+[ 2017-10-03T07:18:02+08:00 ] 101.226.33.219 /index.php?mid=22&from=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506986282  [ RunTime:0.0002s ]
+
+[ 2017-10-03T10:17:40+08:00 ] 106.11.226.236 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0014s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506997060  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T10:17:40+08:00 ] 106.11.226.236 /index.php?m=&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0012s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1506997060  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 231 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 234 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 237 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 240 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-10-03T23:17:35+08:00 ] 202.108.211.56 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0013s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1507043855  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2017-10-03T23:17:36+08:00 ] 202.108.211.56 /index.php?m=&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0011s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1507043855  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mid C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\www\WWW\xbsz\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\www\WWW\xbsz\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 231 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 234 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 237 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 240 行.
+NOTIC: [8] Undefined variable: param C:\www\WWW\xbsz\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+

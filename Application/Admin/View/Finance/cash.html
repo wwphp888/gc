@@ -1,0 +1,52 @@
+
+        <div class="pageheader notab">
+            <h1 class="pagetitle">提现</h1>
+        </div><!--pageheader-->
+        <script src="__PUBLIC__/plugins/My97DatePicker/WdatePicker.js"></script>
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+        
+        
+            <form class="stdform stdform2" method="post">
+            <input type="hidden" name="id" value="{$money['id']}">
+            <input type="hidden" name="money1" value="{$money['money']}">
+            <input type="hidden" name="money2" value="{$new['money']}">
+            <input type="hidden" name="uid" value="{$new['id']}">
+				<table class="form-table" cellspacing="1" border="0">
+					<tr>
+						<th class="title">用户ID</th>
+						<td>
+							{$money['id']}
+						</td>
+					</tr>
+					
+					<tr>
+						<th class="title">账户可用金额</th>
+						<td>
+							{$money['money']}
+						</td>
+					</tr>
+					<tr>
+						<th class="title">申请提现金额</th>
+						<td>
+							{$new['money']}
+						</td>
+					</tr>
+					<tr>
+						<th class="title">用户支付</th>
+						<td>
+							<img src="{$img['imgurl']}" class="img-responsive" alt="Responsive image">
+						</td>
+					</tr>
+					
+				</table>
+				
+				
+				<p class="stdformbutton">
+					<button class="submit radius2">提交</button>
+					<input type="reset" class="reset radius2" value="重置" />
+				</p>
+				
+			</form>
+        
+        </div><!--contentwrapper-->
+        

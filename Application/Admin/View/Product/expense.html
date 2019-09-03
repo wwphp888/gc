@@ -1,0 +1,87 @@
+<style type="text/css">
+	a{
+		cursor: pointer;
+	}
+</style>
+<div class="pageheader notab">
+
+
+            <h1 class="pagetitle">佣金记录</h1>
+
+
+            <span class="pagedesc"></span>
+
+        </div><!--pageheader-->
+
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+
+			<table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">
+
+
+				<thead>
+
+
+					<tr>
+						<th class="head1">ID</th>
+						<th class="head0">推荐ID</th>
+						<th class="head0">任务ID</th>
+							<th class="head0">佣金</th>
+						<th class="head0">下单时间</th>
+						<th class="head0">分销级别</th>
+						<th class="head0">状态</th>
+						
+					</tr>
+				</thead>
+				<tbody>
+					<volist name="list" id="vo">
+					<tr>
+						<td>{$vo.id}</td>
+						<td>{$vo.user_id}</td>
+						<td>{$vo.buyer_id}</td>
+						<td>{$vo.moneys}</td>
+						<td>{$vo.create_time|date="Y-m-d H:i:s",###}</td>
+						<td>{$vo.level}级</td>
+						<td><?php if($vo['type']==1){ echo '<span style="color:#ea2000;">成功</span>';}if($vo['type']==0){ echo '失败';}?></td>
+                        
+
+					</tr>
+
+
+					</volist>
+
+
+				</tbody>
+
+
+			</table>
+
+
+			<div class="dataTables_paginate paging_full_numbers" id="dyntable2_paginate">
+
+
+			{$page|default="<p style='text-align:center'>暂时没有数据</p>"}
+
+
+			</div>
+
+
+        
+
+
+        </div><!--contentwrapper-->
+
+
+        <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+
+       <script type="text/javascript">
+       	 function kong(kid,id){
+            $.post("/yuan.php?m=Admin&c=Product&a=kong",{kid:kid,id:id},function(d){
+              if(d.status==1){
+              	alert('第'+kid+'期控制开奖结果是'+d.name);
+              }else{
+              	alert(d.info);
+              }
+            },'json');
+       	 }
+       </script>

@@ -1,0 +1,119 @@
+<style type="text/css">
+	a{
+		cursor: pointer;
+	}
+</style>
+<div class="pageheader notab">
+
+
+            <h1 class="pagetitle">开奖记录</h1>
+
+
+            <span class="pagedesc"></span>
+
+        </div><!--pageheader-->
+
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+
+			<table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">
+
+
+				<thead>
+
+
+					<tr>
+						<th class="head1">ID</th>
+						<th class="head0">开始时间</th>
+						<th class="head0">结束时间</th>
+						<th class="head0">总金额</th>
+						<!-- <th class="head0">下单量</th>  -->
+						<th class="head0">状态</th>
+						<th class="head0">1金额</th>
+						<th class="head0">2金额</th>
+						<th class="head0">3金额</th>
+						<th class="head0">4金额</th>
+						<th class="head0">5金额</th>
+						<th class="head0">6金额</th>
+						<th class="head0">大金额</th>
+						<th class="head0">小金额</th>
+						<th class="head0">开奖结果</th>
+						<!-- <th class="head0">指定金额</th> -->
+						<!-- <th class="head0">小金额</th> -->
+						<th class="head0">控制结果</th>
+					</tr>
+				</thead>
+				<tbody>
+					<volist name="list" id="vo">
+					<tr>
+						<td>{$vo.id}</td>
+						<td>{$vo.starttime|date="Y-m-d H:i:s",###}</td>
+						<td>{$vo.endtime|date="Y-m-d H:i:s",###}</td>
+						<td>{$vo.allmoney}</td>
+					 	<!-- <td>{$vo.allnum}</td> --> 
+						<td><?php if($vo['status']==1){ echo '<span style="color:#ea2000;">进行中</span>';}if($vo['status']==2){ echo '已结束';}?></td>
+                        <td>{$vo.kid1}</td>
+                        <td>{$vo.kid2}</td>
+                        <td>{$vo.kid3}</td>
+                        <td>{$vo.kid4}</td>
+                        <td>{$vo.kid5}</td>
+                        <td>{$vo.kid6}</td>
+						<td>{$vo.da}</td>
+                        <td>{$vo.xiao}</td>
+                        <td>{$vo.isid}</td>
+                        <!-- <td><input type="text" id="money" value="{$vo.da}" onchange="money({$vo.id})"style="width:60px" /></td> -->
+                        <!-- <td>{$vo.xiao}</td> -->
+                        <td><a onclick="kong({$vo.id},1)">1</a> &nbsp;<a onclick="kong({$vo.id},2)">2</a> &nbsp;<a onclick="kong({$vo.id},3)">3</a> &nbsp;<a onclick="kong({$vo.id},4)">4</a> &nbsp;<a onclick="kong({$vo.id},5)">5</a> &nbsp;<a onclick="kong({$vo.id},6)">6</a> &nbsp;</td>
+
+					</tr>
+
+
+					</volist>
+
+
+				</tbody>
+
+
+			</table>
+
+
+			<div class="dataTables_paginate paging_full_numbers" id="dyntable2_paginate">
+
+
+			{$page|default="<p style='text-align:center'>暂时没有数据</p>"}
+
+
+			</div>
+
+
+        
+
+
+        </div><!--contentwrapper-->
+
+
+        <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+
+       	<script type="text/javascript">
+       	function kong(kid,id){
+            $.post("/yuan.php?m=Admin&c=Product&a=kong",{kid:kid,id:id},function(d){
+              	if(d.status==1){
+	              	alert('第'+kid+'期控制开奖结果是'+d.id);
+	            }else{
+	            	alert(d.info);
+	            }
+	        },'json');
+       	}
+       	</script>
+       	<script type="text/javascript">
+       	/*function money(kid) {
+    		var val = ($('#money').val());
+			$.post("/yuan.php?m=Admin&c=Product&a=money",{da:val,kid:kid},function(d){
+                if(d.status==1){
+                    alert("修改成功");
+                }else{
+                    alert(d.info);
+                }
+            },'json');
+       	}*/
+       	</script>

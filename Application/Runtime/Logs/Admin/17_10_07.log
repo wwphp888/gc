@@ -1,0 +1,1295 @@
+[ 2017-10-07T15:10:41+08:00 ] 39.187.91.126 /yuan.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+
+[ 2017-10-07T15:10:41+08:00 ] 39.187.91.126 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2017-10-07T15:10:50+08:00 ] 39.187.91.126 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+
+[ 2017-10-07T15:10:50+08:00 ] 39.187.91.126 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: info C:\www\WWW\xbsz\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-10-07T15:11:01+08:00 ] 183.3.239.168 /yuan.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+
+[ 2017-10-07T15:11:01+08:00 ] 163.177.90.152 /yuan.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+
+[ 2017-10-07T15:11:01+08:00 ] 183.3.239.168 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-10-07T15:11:01+08:00 ] 163.177.90.152 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-10-07T15:11:13+08:00 ] 39.187.91.126 /yuan.php?m=Admin&c=Product&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_charge` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_charge` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-10-07T15:11:24+08:00 ] 39.187.91.126 /yuan.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: mobile C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-10-07T15:11:31+08:00 ] 111.174.66.77 /yuan.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+
+[ 2017-10-07T15:11:31+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-10-07T15:11:49+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+
+[ 2017-10-07T15:11:49+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: info C:\www\WWW\xbsz\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-10-07T15:11:52+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-10-07T15:11:54+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_buylog` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_buylog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-10-07T15:11:56+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-10-07T15:11:57+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: id C:\www\WWW\xbsz\Application\Admin\Controller\UserController.class.php 第 161 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 184 行.
+NOTIC: [8] Undefined index: remark C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-10-07T15:11:58+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: mobile C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-10-07T15:12:00+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=expense
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_expense` [ RunTime:0.0465s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_expense` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_expense` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-10-07T15:12:04+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Finance&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_withdraw_log` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_withdraw_log` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_withdraw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: user_id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 182 行.
+NOTIC: [8] Undefined index: status C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-10-07T15:12:11+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Finance&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_withdraw_log` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_withdraw_log` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_withdraw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: user_id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 182 行.
+NOTIC: [8] Undefined index: status C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-10-07T15:12:12+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=expense
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_expense` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_expense` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_expense` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-10-07T15:12:16+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-10-07T15:12:45+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-10-07T15:12:46+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-10-07T15:12:48+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-10-07T15:12:53+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-10-07T15:13:02+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: mobile C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-10-07T15:13:05+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_cash` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `dd_cash` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-10-07T15:13:07+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: mobile C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-10-07T15:13:08+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-10-07T15:13:11+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: code_is C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 225 行.
+NOTIC: [8] Undefined index: code_is C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 228 行.
+NOTIC: [8] Undefined index: kaijaing C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 244 行.
+NOTIC: [8] Undefined index: kaijiang C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 247 行.
+NOTIC: [8] Undefined index: tixian C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 263 行.
+NOTIC: [8] Undefined index: tixian C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 266 行.
+NOTIC: [8] Undefined index: shai_yj C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 279 行.
+NOTIC: [8] Undefined index: subscribe C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 321 行.
+NOTIC: [8] Undefined index: land_price C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 333 行.
+NOTIC: [8] Undefined index: expense C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 345 行.
+NOTIC: [8] Undefined index: tou C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 357 行.
+NOTIC: [8] Undefined index: chou C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 369 行.
+NOTIC: [8] Undefined index: chou_reward C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 381 行.
+NOTIC: [8] Undefined index: chou_expense C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 393 行.
+NOTIC: [8] Undefined index: chou_body C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-10-07T15:13:19+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=mp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: gh_id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 184 行.
+NOTIC: [8] Undefined index: mch_id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 197 行.
+NOTIC: [8] Undefined index: key C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-10-07T15:13:22+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: hand_fee C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 194 行.
+NOTIC: [8] Undefined index: recommend1 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 202 行.
+NOTIC: [8] Undefined index: recommend2 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 206 行.
+NOTIC: [8] Undefined index: recommend3 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-10-07T15:14:15+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: code_is C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 225 行.
+NOTIC: [8] Undefined index: code_is C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 228 行.
+NOTIC: [8] Undefined index: kaijaing C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 244 行.
+NOTIC: [8] Undefined index: kaijiang C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 247 行.
+NOTIC: [8] Undefined index: tixian C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 263 行.
+NOTIC: [8] Undefined index: tixian C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 266 行.
+NOTIC: [8] Undefined index: shai_yj C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 279 行.
+NOTIC: [8] Undefined index: subscribe C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 321 行.
+NOTIC: [8] Undefined index: land_price C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 333 行.
+NOTIC: [8] Undefined index: expense C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 345 行.
+NOTIC: [8] Undefined index: tou C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 357 行.
+NOTIC: [8] Undefined index: chou C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 369 行.
+NOTIC: [8] Undefined index: chou_reward C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 381 行.
+NOTIC: [8] Undefined index: chou_expense C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 393 行.
+NOTIC: [8] Undefined index: chou_body C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-10-07T15:14:26+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-10-07T15:14:27+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: code_is C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 225 行.
+NOTIC: [8] Undefined index: code_is C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 228 行.
+NOTIC: [8] Undefined index: kaijaing C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 244 行.
+NOTIC: [8] Undefined index: kaijiang C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 247 行.
+NOTIC: [8] Undefined index: tixian C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 263 行.
+NOTIC: [8] Undefined index: tixian C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 266 行.
+NOTIC: [8] Undefined index: shai_yj C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 279 行.
+NOTIC: [8] Undefined index: subscribe C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 321 行.
+NOTIC: [8] Undefined index: land_price C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 333 行.
+NOTIC: [8] Undefined index: expense C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 345 行.
+NOTIC: [8] Undefined index: tou C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 357 行.
+NOTIC: [8] Undefined index: chou C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 369 行.
+NOTIC: [8] Undefined index: chou_reward C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 381 行.
+NOTIC: [8] Undefined index: chou_expense C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 393 行.
+NOTIC: [8] Undefined index: chou_body C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-10-07T15:14:29+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-10-07T15:14:33+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_cash` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_cash` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-10-07T15:14:35+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: mobile C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-10-07T15:14:41+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: hand_fee C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 194 行.
+NOTIC: [8] Undefined index: recommend1 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 202 行.
+NOTIC: [8] Undefined index: recommend2 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 206 行.
+NOTIC: [8] Undefined index: recommend3 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-10-07T15:15:13+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: code_is C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 225 行.
+NOTIC: [8] Undefined index: code_is C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 228 行.
+NOTIC: [8] Undefined index: kaijaing C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 244 行.
+NOTIC: [8] Undefined index: kaijiang C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 247 行.
+NOTIC: [8] Undefined index: tixian C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 263 行.
+NOTIC: [8] Undefined index: tixian C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 266 行.
+NOTIC: [8] Undefined index: shai_yj C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 279 行.
+NOTIC: [8] Undefined index: subscribe C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 321 行.
+NOTIC: [8] Undefined index: land_price C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 333 行.
+NOTIC: [8] Undefined index: expense C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 345 行.
+NOTIC: [8] Undefined index: tou C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 357 行.
+NOTIC: [8] Undefined index: chou C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 369 行.
+NOTIC: [8] Undefined index: chou_reward C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 381 行.
+NOTIC: [8] Undefined index: chou_expense C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 393 行.
+NOTIC: [8] Undefined index: chou_body C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-10-07T15:15:16+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-10-07T15:15:18+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=mp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: gh_id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 184 行.
+NOTIC: [8] Undefined index: mch_id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 197 行.
+NOTIC: [8] Undefined index: key C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-10-07T15:15:21+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: hand_fee C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 194 行.
+NOTIC: [8] Undefined index: recommend1 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 202 行.
+NOTIC: [8] Undefined index: recommend2 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 206 行.
+NOTIC: [8] Undefined index: recommend3 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-10-07T15:15:43+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-10-07T15:16:14+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=Config&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: hand_fee C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 194 行.
+NOTIC: [8] Undefined index: recommend1 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 202 行.
+NOTIC: [8] Undefined index: recommend2 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 206 行.
+NOTIC: [8] Undefined index: recommend3 C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-10-07T15:16:17+08:00 ] 101.226.66.173 /yuan.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+
+[ 2017-10-07T15:16:19+08:00 ] 101.226.66.173 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-10-07T15:43:42+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: id C:\www\WWW\xbsz\Application\Admin\Controller\UserController.class.php 第 161 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 184 行.
+NOTIC: [8] Undefined index: remark C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-10-07T15:43:43+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: mobile C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-10-07T15:44:05+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 25,25   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: mobile C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-10-07T16:34:42+08:00 ] 111.174.66.77 /yuan.php?m=Admin&c=User&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: id C:\www\WWW\xbsz\Application\Admin\Controller\UserController.class.php 第 161 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: id C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 184 行.
+NOTIC: [8] Undefined index: remark C:\www\WWW\xbsz\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+

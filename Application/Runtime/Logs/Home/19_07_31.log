@@ -1,0 +1,175 @@
+[ 2019-07-31T11:01:22+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2019-07-31T11:01:46+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'xbsz'
+
+[ 2019-07-31T11:03:23+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0008s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1564542203  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mid C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php 第 22 行.
+
+[ 2019-07-31T11:03:24+08:00 ] ::1 /index.php?m=&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0009s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1564542203  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mid C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\Users\Administrator\Desktop\www\gc\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 231 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 234 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 237 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 240 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2019-07-31T11:03:42+08:00 ] ::1 /index.php?m=&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0007s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1564542222  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mid C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\Users\Administrator\Desktop\www\gc\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 231 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 234 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 237 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 240 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2019-07-31T11:03:44+08:00 ] ::1 /index.php?m=&c=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0008s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1564542224  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mid C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\Users\Administrator\Desktop\www\gc\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 231 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 234 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 237 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 240 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ddaf032eeb3f0e441c9409c65fc90ee1.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2019-07-31T11:03:47+08:00 ] ::1 /index.php?m=&c=Public&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0009s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1564542227  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mid C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\Users\Administrator\Desktop\www\gc\Application\Common\Util\ddwechat.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: parent C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ffc22747f6c7f22c782ca4b82168afb2.php 第 147 行.
+NOTIC: [8] Undefined index: parent C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ffc22747f6c7f22c782ca4b82168afb2.php 第 159 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ffc22747f6c7f22c782ca4b82168afb2.php 第 353 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ffc22747f6c7f22c782ca4b82168afb2.php 第 356 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ffc22747f6c7f22c782ca4b82168afb2.php 第 359 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ffc22747f6c7f22c782ca4b82168afb2.php 第 362 行.
+NOTIC: [8] Undefined variable: param C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Home\ffc22747f6c7f22c782ca4b82168afb2.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2019-07-31T11:04:14+08:00 ] ::1 /index.php?m=&c=Public&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_land` [ RunTime:0.0007s ]
+SQL: SELECT dd_land.id land_id,dd_user_plant.* FROM `dd_land` INNER JOIN dd_user_plant on dd_land.plant_id = dd_user_plant.id  WHERE dd_land.plant_id > 0 AND dd_user_plant.life_time < 1564542254  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mid C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\HomeController.class.php on line 285 and defined C:\Users\Administrator\Desktop\www\gc\Application\Common\Util\ddwechat.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_user` WHERE `login_name` = '18576604303' LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: openid C:\Users\Administrator\Desktop\www\gc\Application\Home\Controller\PublicController.class.php 第 248 行.
+SQL: SELECT * FROM `dd_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0011s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'mobile' doesn't have a default value
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><title>
+闲来猜猜乐
+</title><link type="text/css" rel="stylesheet" href="/Public/css/default2017.css?20170115">
+<style type="text/css">
+  .g-showtime{
+    color:#cb1a48;
+  }
+  .openLottery{
+    position: fixed;
+    top: 100px;
+  }
+</style>
+</head>
+<body>
+<input id="batchno" name="batchno" type="hidden" value="C20170128210908">
+
+<include file="include/top" />
+<div class="container">
+<div class="main_body2">
+<div class="identifier2">
+<span class="batchno" id="span_batchno">本局游戏编号：{$kailist.id}</span>
+</div>
+<div class="guess">
+<div class="g-tips" id="showtime">
+<div class="g-time">
+<div class="g-showtime"><span id="span_tips">0<d id="miao">{$miao}</d></span></div>
+</div>
+</div>
+<div class="g-fu" id="fudai"><img src="/res/images2017/fudai.png" alt="福袋"></div>
+<div class="g-xuan" id="touzhu">
+<a href="/index.php?m=&c=Index&a=cai&id=1">
+<div class="xuan-xiangjiao" >
+<div class="xuan-item"><img id="item_xiangjiao" src="/res/images2017/btnXiangJiao.png" alt="猜香蕉"></div>
+</div>
+</a>
+<a href="/index.php?m=&c=Index&a=cai&id=2">
+<div class="xuan-xigua">
+<div class="xuan-item"><img id="item_xigua" src="/res/images2017/btnXiGua.png" alt="猜西瓜"></div>
+</div>
+</a>
+<a href="/index.php?m=&c=Index&a=cai&id=3">
+<div class="xuan-pingguo">
+<div class="xuan-item"><img id="item_pingguo" src="/res/images2017/btnPingGuo.png" alt="猜苹果"></div>
+</div>
+</a>
+</div>
+<div class="openLottery" id="lotteryResult">
+<div class="lotteryTitle" id="divLotteryTitle"><span id="spanLotteryTitle">第000000期</span></div>
+<div class="lotteryResult" id="divLotteryResult"><span id="spanLotteryResult">开奖结果：</span></div>
+<div class="lotteryMessage" id="divLotteryMessage"><span id="spanLotteryMessage"></span></div>
+<div class="lotteryBtn"><img id="btnCai" src="/res/images2017/lottery-btn.png" alt="返回猜一猜" onclick="closeLottery();"></div>
+</div>
+<div class="gameDescription" id="gameDescription"><img src="/res/images2017/rGameDescription.png" alt="" onclick="hidGameDesc(1);"></div>
+<div class="g-introduce" id="openIntro">
+<p><a href="javascript:showGameDesc();"><b>游戏玩法</b></a><a href="javascript:openTrend();"><span><u>历史开奖结果</u></span></a></p>
+</div>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<include file="include/footer" />
+<div id="trend" class="Trend" onclick="closeTrend();">
+<div class="trendHeader">
+<div class="client-close"><span>点击隐藏</span></div>
+</div>
+<div class="trendList"><div class="trendItem">第24380期<br>西瓜</div><div class="trendItem">第24379期<br>苹果</div><div class="trendItem">第24378期<br>西瓜</div><div class="trendItem">第24377期<br>西瓜</div><div class="trendItem">第24376期<br>西瓜</div><div class="trendItem">第24375期<br>西瓜</div><div class="trendItem">第24374期<br>香蕉</div><div class="trendItem">第24373期<br>香蕉</div></div>
+</div>
+</body>
+<script type="text/javascript" src="/Public/js/jquery-1.7.2-min.js"></script>
+<script type="text/javascript">
+  function closeTrend(){
+    $("#trend").hide();
+  }
+  function openTrend(){
+    $("#trend").show();
+  }
+  function showGameDesc(){
+    $("#gameDescription").show();
+  }
+  function hidGameDesc(){
+    $("#gameDescription").hide();
+  }
+  function closeLottery(){
+     $("#lotteryResult").hide();
+     location.href="/";
+  }
+  var wait= 60;
+  time();
+  function time() {
+    if (wait == 0) {
+
+    } else {
+      $.post('/index.php?m=&c=Index&a=zhixing',{},function(data){
+     
+      },"json");
+      setTimeout(function() {
+        time();
+      },
+      2000);
+    }
+  }
+  function jieshu(){
+    $.post('/index.php?m=&c=Index&a=kai',{},function(data){
+     if(data){
+      $("#spanLotteryTitle").html('第'+data.id+'期');
+      $("#spanLotteryResult").html('开奖结果:'+data.name);
+      $("#lotteryResult").show();
+     } 
+     
+    },"json");
+  }
+</script>
+</html>

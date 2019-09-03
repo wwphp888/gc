@@ -1,0 +1,49 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><title>
+代理业绩 - 闲来猜猜乐
+</title><link type="text/css" rel="stylesheet" href="/Public/css/default2017.css?20170102_2">
+<style type="text/css">
+	.page a{
+     color:#fff;
+     padding: 5px;
+     text-decoration: none;
+	}
+</style>
+</head>
+<body>
+
+<include file="include/top" />
+<div class="container3">
+<div class="commision">
+<div class="c-money">累计获得佣金总金额：<span>{$user.expense}元</span></div>
+<div class="c-funs">
+<li>&nbsp;</li>
+<li class="w25"><a href="/index.php?m=&c=Index&a=expensewen"><img src="http://m.xlcyc1.com/res/images2017/yj_btn01.png" alt=""></a></li>
+<li class="w25"><a href="/index.php?m=&c=Index&a=usercode"><img src="http://m.xlcyc1.com/res/images2017/yj_btn02.png" alt=""></a></li>
+<li class="w25"><a href="/index.php?m=&c=Index&a=withdraw"><img src="http://m.xlcyc1.com/res/images2017/yj_btn03.png" alt=""></a></li>
+<li>&nbsp;</li>
+</div>
+<div class="c-details">
+<div class="c-table">
+<div class="c-table-header">
+<li class="th-batchno">结算编号</li>
+<li class="th-amount">佣金金额</li>
+<li class="th-pubdate">结算时间</li>
+</div>
+<volist name="list" id="vo">
+<div class="c-table-header">
+<li class="th-batchno">{$vo.id}</li>
+<li class="th-amount">{$vo.money}</li>
+<li class="th-pubdate"><?php echo date("Y-m-d H:i",$vo['create_time']);?></li>
+</div>
+</volist>
+</div>
+</div>
+<div class="page" style=" padding:10px;margin-bottom: 30px;">
+{$page}
+</div>
+</div>
+</div>
+
+<include file="include/footer" />
+</body>
+</html>

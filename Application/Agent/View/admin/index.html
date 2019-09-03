@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>代理商管理后台</title>
+<link rel="stylesheet" href="/Public/admin/css/style.default.css" type="text/css" />
+<link rel="stylesheet" href="/Public/plugins/bootstrap/css/bootstrap.font.css" type="text/css" />
+<link rel="stylesheet" href="/Public/plugins/bootstrap/css/bootstrap.min.css" type="text/css"/>
+
+ <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+<!--[if IE 9]>    <link rel="stylesheet" media="screen" href="css/style.ie9.css"/><![endif]-->
+<!--[if IE 8]>    <link rel="stylesheet" media="screen" href="css/style.ie8.css"/><![endif]-->
+<!--[if lt IE 9]>	<script src="js/plugins/css3-mediaqueries.js"></script><![endif]-->
+<link href="/Public/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+<script src="/Public/daterangepicker/moment.min.js" type="text/javascript"></script>
+<script src="/Public/daterangepicker/daterangepicker.js" type="text/javascript"></script>
+<meta name="poweredby" content="hhh" />
+
+</head>
+<body class="withvernav">
+	<div class="bodywrapper">   
+		<div class="topheader">        
+			<div class="left">            
+				<h1 class="logo">摇骰子					<span></span>
+				</h1>            
+				<span class="slogan">代理商系统</span>                             
+				<br clear="all" />                    
+			</div><!--left-->		
+			<div class="right">        	 
+				<span style=" color:#fff;">			 
+					<?=$user_info['username']?> 			 
+							 
+					<a href="/agent.php?m=Agent&c=Public&a=logout" style=" color:#ccc;">[退出]</a>			 
+				</span>        
+			</div><!--right-->    
+			</div><!--topheader-->        
+			<style>	/* 改造右侧菜单 */	.vernav2 span.text{ padding-left:10px;}	.menucoll2 span.text{ display:none;}	.menucoll2>ul>li>a{ width:12px; padding:9px 10px; !important;}	.dataTables_paginate a{ padding:0 10px;}		/* 表单表格 */	.form-table{ width:100%; background:#ddd;}	.form-table th,.form-table td{ padding:15px;}	.form-table th.title{ width:190px; background:#fcfcfc; color:#666; text-align:left;}	.form-table th small{ font-weight:normal; color:#999; display:block;}	.form-table td{ background:#fff; vertical-align:middle;}	</style>   
+			<!--leftmenu-->            
+		<div class="centercontent" style="margin-left:0px;">	
+
+<style type="text/css">
+	a{
+		cursor: pointer;
+	}
+</style>
+<div class="pageheader notab">
+
+
+            <h1 class="pagetitle">购买记录</h1>
+
+
+            <span class="pagedesc"></span>
+
+        </div><!--pageheader-->
+
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+
+			<table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">
+                <div class="tableoptions">        				
+					
+					
+					<div class="row">
+                                <div class="col-md-10">
+                                   <form action="" method="post">
+                                        
+                                        	  					
+                                        <div class="col-xs-3" style="width:300px;">         
+                                            <div class="input-group">
+                                                <div class="input-group-addon">
+                                                    选择时间  <i class="fa fa-calendar"></i>
+                                                </div>
+                                                <input type="text" class="form-control pull-right" name="timerange" value="<?=$start_time.' - '.$end_time?>" id="start_time">
+                                            </div>
+                                        </div>	
+                                        <div class="col-xs-1"><input class="btn btn-block btn-info" type="submit" value="确定"></div>
+                                        
+                                   </form>
+                                </div>
+                            </div>
+                   			 
+				</div>
+
+				<thead>
+
+
+					<tr>
+					
+						<th class="head1">会员id</th>
+						<th class="head0">金额</th>
+						<th class="head0">	购买</th>
+						<th class="head0">下单时间</th>
+						<th class="head0">结束时间</th>
+						<th class="head0">状态</th>
+						<th class="head0">开奖数字</th>
+						<th class="head0">中奖金额</th>
+						<th class="head0">开奖结果</th>
+					</tr>
+				</thead>
+				<tbody>
+					<volist name="list" id="vo">
+					<tr>
+						
+						<td>{$vo.uid}</td>
+						<td>{$vo.money}</td>
+						<td><?php if($vo['buyid']<=6){echo $vo['buyid'];}elseif($vo['buyid']==7){ echo '大';}else{echo '小';}?></td>
+						<td>{$vo.starttime|date="Y-m-d H:i:s",###}</td>
+						<td>{$vo.endtime|date="Y-m-d H:i:s",###}</td>
+						<td><?php if($vo['status']==1){ echo '<span style="color:#ea2000;">进行中</span>';}if($vo['status']==2){ echo '已结束';}?></td>
+                        <td>{$vo.isid}</td>
+                        <td>{$vo.yingmoney}</td>
+                        <td>
+                        	<?php if($vo['isid']!=0){
+                             if($vo['isid']==$vo['buyid']){
+                               	echo '<span style="color:#ed5859">中奖</span>';
+                        	 }else if($vo['isid']>3 && $vo['buyid']==7){
+                        	 	echo '<span style="color:#ed5859">中奖</span>';
+                        	 	
+                        	 }else if($vo['isid']<=3 && $vo['buyid']==8){
+                        	 	echo '<span style="color:#ed5859">中奖</span>';
+                        	 	
+                        	 }else{
+                               echo '未中奖';
+                        	 }
+                        	}else{
+                        	   echo '未开奖';
+                        	} ?>
+                        </td>
+
+					</tr>
+
+
+					</volist>
+                
+                  入账金额:+<?=$win_money ? $win_money :0;?> 元  出账金额: -<?=$lose_money ? $lose_money :0;?> 元 总佣金:<?=$total_money ? $total_money :0;?> 元
+ 					
+				</tbody>
+
+
+			</table>
+
+
+			<div class="dataTables_paginate paging_full_numbers" id="dyntable2_paginate">
+
+
+			{$page|default="<p style='text-align:center'>暂时没有数据</p>"}
+
+
+			</div>
+
+
+          
+
+
+        </div><!--contentwrapper-->
+
+    <script>
+	  $('.timerange').click(function(){
+	    var time = $(this).attr('data-value');
+		  $('#timex').val(time);
+		$('#timeForm').submit();
+	     //alert(time);
+	  });
+	
+	 $(document).ready(function () {
+                $('#start_time').daterangepicker({
+                    format: "YYYY-MM-DD",
+                    singleDatePicker: false,
+                    showDropdowns: true,
+                    minDate: '2016-01-01',
+                    maxDate: '2030-01-01',
+                    startDate: '2016-01-01',
+                    showWeekNumbers: true,
+                    timePicker: false,
+                    timePickerIncrement: 1,
+                    timePicker12Hour: true,
+                    ranges: {
+                        '今天': [moment(), moment()],
+                        '昨天': [moment().subtract('days', 1), moment().subtract('days', 1)],
+                        '最近7天': [moment().subtract('days', 6), moment()],
+                        '最近30天': [moment().subtract('days', 29), moment()],
+                        '上一个月': [moment().subtract('month', 1).startOf('month'), moment().subtract('month', 1).endOf('month')]
+                    },
+                    opens: 'right',
+                    buttonClasses: ['btn btn-default'],
+                    applyClass: 'btn-small btn-primary',
+                    cancelClass: 'btn-small',
+                    locale: {
+                        applyLabel: '确定',
+                        cancelLabel: '取消',
+                        fromLabel: '起始时间',
+                        toLabel: '结束时间',
+                        customRangeLabel: '自定义',
+                        daysOfWeek: ['日', '一', '二', '三', '四', '五', '六'],
+                        monthNames: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+                        firstDay: 1
+                    }
+                });
+
+            });
+	</script>
+       
+
+
+      
+	   

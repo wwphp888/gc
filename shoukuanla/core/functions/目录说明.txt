@@ -1,0 +1,5 @@
+该目录存放系统函数
+
+调用方法：
+require_once(SKL_SYS_FUNCTIONS_PATH.'xxx.php');  
+xxx();

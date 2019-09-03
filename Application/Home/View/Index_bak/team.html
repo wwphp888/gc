@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<include file="include/head" title="我的团队" />
+		<style>
+		.back-btn{ position:fixed; display:block; width:30px; height:30px; text-align:center; line-height:30px; border-radius:50%; background:rgba(255,255,255,.5); bottom:60px; left:10px;}
+		
+		.item{ padding:10px; border-bottom:1px solid #eee;}
+		.item .name{ font-size:16px; color:#000;}
+		.item .time{ font-size:12px; color:#ccc;}
+		</style>
+	</head>
+	<body style="background: #66FFFF;">
+		<a href="{:U('ucenter')}" class="back-btn">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<ul class="nav nav-tabs " role="tablist">
+		  <li role="presentation" <if condition="$type eq 1">class="active"</if>>
+			<a href="{:U('team?type=1')}">一级成员</a>
+		  </li>
+		  <li role="presentation" <if condition="$type eq 2">class="active"</if>>
+			<a href="{:U('team?type=2')}">二级成员</a>
+		  </li>
+		  <li role="presentation" <if condition="$type eq 3">class="active"</if>>
+			<a href="{:U('team?type=3')}">三级成员</a>
+		  </li>
+		</ul>
+		<volist name="list" id="vo">
+		<div class="item">
+			<div class="name">{$vo.name|default=$vo['mobile']}</div>
+			<div class="time">{$vo.create_time|date="Y-m-d H:i:s",###}</div>
+		</div>
+		</volist>
+		<empty name="list">
+		<div class="" style=" padding:50px 0; text-align:center; color:#ccc;">暂时没有任何内容</div>
+		</empty>
+		
+		<include file="include/bottom" />
+	</body>
+</html>

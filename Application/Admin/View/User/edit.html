@@ -1,0 +1,67 @@
+
+        <div class="pageheader notab">
+            <h1 class="pagetitle">编辑会员信息</h1>
+        </div><!--pageheader-->
+        <script src="__PUBLIC__/plugins/My97DatePicker/WdatePicker.js"></script>
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+        
+        
+            <form class="stdform stdform2" method="post">
+				<table class="form-table" cellspacing="1" border="0">
+					<tr>
+						<th class="title">ID</th>
+						<td>
+							<input type="text" name="id" id="id" value="{$info.id}" disabled class="smallinput" />
+						</td>
+					</tr>
+					<tr>
+						<th class="title">OPENID</th>
+						<td>
+							<input type="text" name="openid" id="openid" value="{$info.openid}" disabled class="smallinput" />
+						</td>
+					</tr>
+					<tr>
+						<th class="title">姓名</th>
+						<td>
+							<input type="text" name="name" id="name" value="{$info.name}" class="smallinput" />
+						</td>
+					</tr>
+					<tr>
+						<th class="title">手机</th>
+						<td>
+							<input type="text" name="login_name" id="login_name" value="{$info.login_name}" class="smallinput" />
+						</td>
+					</tr>
+					
+					<tr>
+						<th class="title">地址</th>
+						<td>
+							<input type="text" name="addr" id="addr" value="{$info.addr}" class="smallinput" />
+						</td>
+					</tr>
+					
+					<tr>
+						<th class="title">上级</th>
+						<td>
+							<input type="text" name="parent1" id="parent1" value="{$info.parent1}" class="smallinput" />
+						</td>
+					</tr>
+					
+					<tr>
+						<th class="title">注册时间</th>
+						<td>
+							{$info.create_time|date="Y-m-d H:i:s",###}
+						</td>
+					</tr>
+					
+				</table>
+				
+				
+				<p class="stdformbutton">
+					<button class="submit radius2">提交</button>
+					<input type="reset" class="reset radius2" value="重置" />
+				</p>
+			</form>
+        
+        </div><!--contentwrapper-->
+        

@@ -1,0 +1,55 @@
+
+        <div class="pageheader notab">
+            <h1 class="pagetitle">金额设置</h1>
+            <span class="pagedesc"></span>
+            
+        </div><!--pageheader-->
+        
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+        
+        
+            <form class="stdform stdform2" method="post">
+				<p>
+					<label>每次最少提现金额<small>此设置大于1才有效</small></label>
+					<span class="field">
+						<input type="text" name="min_money" id="min_money" value="{$_CFG.withdraw.min_money}" class="smallinput" />
+					</span>
+				</p>
+				<p>
+					<label>每次最多提现金额</label>
+					<span class="field"><input type="text" name="max_money" id="max_money" value="{$_CFG.withdraw.max_money}" class="smallinput" /></span>
+				</p>
+				<!--<p>
+					<label>手续费</label>
+					<span class="field"><input type="text" name="hand_fee" id="hand_fee" value="{$_CFG.withdraw.hand_fee}" class="smallinput" /></span>
+				</p>-->
+				<p>
+					<label>新用户赠送</label>
+					<span class="field" style="color:red"><input type="text" name="cash" id="cash" value="{$_CFG.withdraw.cash}" class="smallinput" />*必须小于最小提现金额</span>
+				</p>
+				<!-- <p>
+					<label>推荐赠送</label>
+					<span class="field" style="color:red"><input type="text" name="recommend1" id="recommend1" value="{$_CFG.withdraw.recommend1}" class="smallinput" />*1级推荐赠送</span>
+				</p>
+				<p>
+					<label>推荐赠送</label>
+					<span class="field" style="color:red"><input type="text" name="recommend2" id="recommend2" value="{$_CFG.withdraw.recommend2}" class="smallinput" />*2级推荐赠送</span>
+				</p>
+				<p>
+					<label>推荐赠送</label>
+					<span class="field" style="color:red"><input type="text" name="recommend3" id="recommend3" value="{$_CFG.withdraw.recommend3}" class="smallinput" />*3级推荐赠送</span>
+				</p> -->
+				<p>
+					<label>默认不控制开奖金额</label>
+					<span class="field" style="color:red"><input type="text" name="money" id="money" value="{$_CFG.withdraw.money}" class="smallinput" />*当期投注总金额小于此金额时随机开奖</span>
+				</p>
+				
+				<p class="stdformbutton">
+					<button class="submit radius2">提交</button>
+					<input type="reset" class="reset radius2" value="重置" />
+				</p>
+			</form>
+        
+        
+        </div><!--contentwrapper-->
+        

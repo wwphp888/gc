@@ -1,0 +1,1946 @@
+[ 2019-08-19T20:02:01+08:00 ] 127.0.0.1 /yuan.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+
+[ 2019-08-19T20:02:01+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2019-08-19T20:02:19+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+
+[ 2019-08-19T20:02:19+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2019-08-19T20:02:24+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: mobile C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2019-08-19T20:02:30+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=User&a=charge&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: remark C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2019-08-19T20:02:32+08:00 ] 127.0.0.1 /yuan.php?m=Admin&c=User&a=charge&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `dd_charge_log` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: remak C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\UserController.class.php 第 173 行.
+SQL: INSERT INTO `dd_charge_log` (`user_id`,`money`,`remark`,`create_time`) VALUES ('2','37.01',NULL,'1566216152') [ RunTime:0.0144s ]
+SQL: UPDATE `dd_user` SET `money`=37.01 WHERE `id` = 2 [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant CLI - assumed 'CLI' C:\Users\Administrator\Desktop\www\gc\Application\Common\Common\function.php 第 885 行.
+SQL: SHOW COLUMNS FROM `dd_finance_log` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: remak C:\Users\Administrator\Desktop\www\gc\Application\Common\Common\function.php 第 918 行.
+SQL: INSERT INTO `dd_finance_log` (`user_id`,`type`,`money`,`action`,`create_time`,`remark`) VALUES ('2','money','37.01','7','1566216152',NULL) [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+
+[ 2019-08-19T20:02:33+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: mobile C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2019-08-19T20:02:48+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` WHERE `mobile` = '18576604304' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_user` WHERE `mobile` = '18576604304' ORDER BY id LIMIT 0,25   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2019-08-19T20:02:58+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: mobile C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2019-08-19T20:03:02+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 25,25   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: mobile C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2019-08-19T20:03:07+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=charge&id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: remark C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2019-08-19T20:03:12+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=charge&id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_user` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_charge_log` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: remak C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\UserController.class.php 第 173 行.
+SQL: INSERT INTO `dd_charge_log` (`user_id`,`money`,`remark`,`create_time`) VALUES ('38','100',NULL,'1566216192') [ RunTime:0.0012s ]
+SQL: UPDATE `dd_user` SET `money`=100 WHERE `id` = 38 [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant CLI - assumed 'CLI' C:\Users\Administrator\Desktop\www\gc\Application\Common\Common\function.php 第 885 行.
+SQL: SHOW COLUMNS FROM `dd_finance_log` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: remak C:\Users\Administrator\Desktop\www\gc\Application\Common\Common\function.php 第 918 行.
+SQL: INSERT INTO `dd_finance_log` (`user_id`,`type`,`money`,`action`,`create_time`,`remark`) VALUES ('38','money','100','7','1566216192',NULL) [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+
+[ 2019-08-19T20:03:13+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Undefined index: mobile C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2019-08-19T20:05:45+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Product&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_charge` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_charge` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2019-08-19T20:05:47+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2019-08-19T20:05:47+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2019-08-19T20:06:11+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: id C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\UserController.class.php 第 161 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 184 行.
+NOTIC: [8] Undefined index: remark C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2019-08-19T20:06:13+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2019-08-19T20:06:14+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Product&a=buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_buylog` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_buylog` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_buylog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2019-08-19T20:06:14+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Product&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_charge` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_charge` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_charge` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2019-08-19T20:06:15+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Product&a=expense
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_expense` [ RunTime:0.0286s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_expense` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_expense` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2019-08-19T20:06:17+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Finance&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_withdraw_log` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_withdraw_log` LIMIT 1   [ RunTime:0.0065s ]
+SQL: SELECT * FROM `dd_withdraw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: user_id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 182 行.
+NOTIC: [8] Undefined index: status C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2019-08-19T20:06:18+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Product&a=expense
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_expense` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_expense` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_expense` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2019-08-19T20:06:19+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Finance&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dd_withdraw_log` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_withdraw_log` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_withdraw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: user_id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 182 行.
+NOTIC: [8] Undefined index: status C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2019-08-19T20:06:20+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Product&a=expense
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_expense` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_expense` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_expense` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2019-08-19T20:06:22+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Finance&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_withdraw_log` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_withdraw_log` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_withdraw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: user_id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 182 行.
+NOTIC: [8] Undefined index: status C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2019-08-19T20:06:25+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: hand_fee C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 194 行.
+NOTIC: [8] Undefined index: recommend1 C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 202 行.
+NOTIC: [8] Undefined index: recommend2 C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 206 行.
+NOTIC: [8] Undefined index: recommend3 C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2019-08-19T20:06:33+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=mp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: gh_id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 184 行.
+NOTIC: [8] Undefined index: mch_id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 197 行.
+NOTIC: [8] Undefined index: key C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2019-08-19T20:06:37+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2019-08-19T20:06:40+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: code_is C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 225 行.
+NOTIC: [8] Undefined index: code_is C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 228 行.
+NOTIC: [8] Undefined index: kaijaing C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 244 行.
+NOTIC: [8] Undefined index: kaijiang C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 247 行.
+NOTIC: [8] Undefined index: tixian C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 263 行.
+NOTIC: [8] Undefined index: tixian C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 266 行.
+NOTIC: [8] Undefined index: shai_yj C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 279 行.
+NOTIC: [8] Undefined index: subscribe C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 321 行.
+NOTIC: [8] Undefined index: land_price C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 333 行.
+NOTIC: [8] Undefined index: expense C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 345 行.
+NOTIC: [8] Undefined index: tou C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 357 行.
+NOTIC: [8] Undefined index: chou C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 369 行.
+NOTIC: [8] Undefined index: chou_reward C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 381 行.
+NOTIC: [8] Undefined index: chou_expense C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 393 行.
+NOTIC: [8] Undefined index: chou_body C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2019-08-19T20:06:45+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_cash` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `dd_cash` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2019-08-19T20:07:37+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_user` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_user` ORDER BY id LIMIT 0,25   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: mobile C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: name C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+NOTIC: [8] Undefined index: id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2019-08-19T20:22:21+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=mp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: gh_id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 184 行.
+NOTIC: [8] Undefined index: mch_id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 197 行.
+NOTIC: [8] Undefined index: key C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\42885a520abbe0fbbf2e4daf3921c7f0.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2019-08-19T20:22:26+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: code_is C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 225 行.
+NOTIC: [8] Undefined index: code_is C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 228 行.
+NOTIC: [8] Undefined index: kaijaing C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 244 行.
+NOTIC: [8] Undefined index: kaijiang C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 247 行.
+NOTIC: [8] Undefined index: tixian C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 263 行.
+NOTIC: [8] Undefined index: tixian C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 266 行.
+NOTIC: [8] Undefined index: shai_yj C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 279 行.
+NOTIC: [8] Undefined index: subscribe C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 321 行.
+NOTIC: [8] Undefined index: land_price C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 333 行.
+NOTIC: [8] Undefined index: expense C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 345 行.
+NOTIC: [8] Undefined index: tou C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 357 行.
+NOTIC: [8] Undefined index: chou C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 369 行.
+NOTIC: [8] Undefined index: chou_reward C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 381 行.
+NOTIC: [8] Undefined index: chou_expense C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 393 行.
+NOTIC: [8] Undefined index: chou_body C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2019-08-19T20:24:18+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: code_is C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 225 行.
+NOTIC: [8] Undefined index: code_is C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 228 行.
+NOTIC: [8] Undefined index: kaijaing C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 244 行.
+NOTIC: [8] Undefined index: kaijiang C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 247 行.
+NOTIC: [8] Undefined index: tixian C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 263 行.
+NOTIC: [8] Undefined index: tixian C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 266 行.
+NOTIC: [8] Undefined index: shai_yj C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 279 行.
+NOTIC: [8] Undefined index: subscribe C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 321 行.
+NOTIC: [8] Undefined index: land_price C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 333 行.
+NOTIC: [8] Undefined index: expense C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 345 行.
+NOTIC: [8] Undefined index: tou C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 357 行.
+NOTIC: [8] Undefined index: chou C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 369 行.
+NOTIC: [8] Undefined index: chou_reward C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 381 行.
+NOTIC: [8] Undefined index: chou_expense C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 393 行.
+NOTIC: [8] Undefined index: chou_body C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 408 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2019-08-19T20:24:20+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2019-08-19T20:24:29+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=charge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: id C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\UserController.class.php 第 161 行.
+SQL: SELECT * FROM `dd_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 184 行.
+NOTIC: [8] Undefined index: remark C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\0edbdcd3de810f69bf86656951fd919b.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2019-08-19T20:24:30+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Product&a=kai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dd_kailog` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_kailog` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dd_kailog` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2019-08-19T20:24:40+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: hand_fee C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 194 行.
+NOTIC: [8] Undefined index: recommend1 C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 202 行.
+NOTIC: [8] Undefined index: recommend2 C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 206 行.
+NOTIC: [8] Undefined index: recommend3 C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\c59f15d1806f3c2e5e2c48ff922727f9.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2019-08-19T20:24:42+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=User&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_cash` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_cash` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2019-08-19T20:24:46+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=cs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2019-08-19T20:24:46+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1&url=.%2FPublic%2Fupload%2Fimages%2F1709%2F26%2F075058795655001013.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2019-08-19T20:27:48+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=cs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2019-08-19T20:27:48+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1&url=.%2FPublic%2Fupload%2Fimages%2F1709%2F26%2F075058795655001013.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2019-08-19T20:27:53+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=cs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2019-08-19T20:27:53+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1&url=.%2FPublic%2Fupload%2Fimages%2F1709%2F26%2F075058795655001013.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2019-08-19T20:28:03+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Finance&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dd_withdraw_log` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_withdraw_log` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dd_withdraw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: user_id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 182 行.
+NOTIC: [8] Undefined index: status C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2019-08-19T20:28:28+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Finance&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dd_withdraw_log` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_withdraw_log` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dd_withdraw_log` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: user_id C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 182 行.
+NOTIC: [8] Undefined index: status C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\53773979b6959bfb350f93d080281a92.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2019-08-19T20:28:31+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2019-08-19T20:28:31+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1&url=.%2FPublic%2Fupload%2Fimages%2F1709%2F26%2F075058795655001013.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000032s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2019-08-19T20:30:58+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2019-08-19T20:30:58+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1&url=.%2FPublic%2Fupload%2Fimages%2F1709%2F26%2F075058795655001013.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2019-08-19T20:43:35+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dd_config_recharge` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_config_recharge`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: vo C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\1de5151774b99918c40e89f8e283d803.php 第 205 行.
+NOTIC: [8] Undefined variable: vo C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\1de5151774b99918c40e89f8e283d803.php 第 207 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2019-08-19T20:43:37+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2019-08-19T20:43:49+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2019-08-19T20:45:06+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: field C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\AdminController.class.php 第 141 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-08-19T20:46:40+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2019-08-19T20:50:43+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2019-08-19T20:54:39+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+
+[ 2019-08-19T20:54:52+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: recharge C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\1de5151774b99918c40e89f8e283d803.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2019-08-19T20:54:54+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2019-08-19T20:54:57+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: field C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\AdminController.class.php 第 141 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2019-08-19T20:55:03+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0009s ]
+
+[ 2019-08-19T21:00:39+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+
+[ 2019-08-19T21:00:42+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: recharge C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\1de5151774b99918c40e89f8e283d803.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2019-08-19T21:00:44+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2019-08-19T21:00:46+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: field C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\AdminController.class.php 第 141 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2019-08-19T21:00:51+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+
+[ 2019-08-19T21:01:02+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+
+[ 2019-08-19T21:01:03+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+
+[ 2019-08-19T21:01:03+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+
+[ 2019-08-19T21:01:04+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+
+[ 2019-08-19T21:01:04+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+
+[ 2019-08-19T21:01:04+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+
+[ 2019-08-19T21:01:15+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: recharge C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\1de5151774b99918c40e89f8e283d803.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2019-08-19T21:01:16+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: recharge C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\1de5151774b99918c40e89f8e283d803.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2019-08-19T21:01:17+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: recharge C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\1de5151774b99918c40e89f8e283d803.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2019-08-19T21:01:17+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2019-08-19T21:01:19+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: field C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\AdminController.class.php 第 141 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2019-08-19T21:01:23+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+
+[ 2019-08-19T21:01:47+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0010s ]
+
+[ 2019-08-19T21:05:46+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: recharge C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\1de5151774b99918c40e89f8e283d803.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2019-08-19T21:05:48+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2019-08-19T21:05:50+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=upload&event=setPath1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: field C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\AdminController.class.php 第 141 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2019-08-19T21:05:53+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dd_config` WHERE `name` = 'recharge' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `dd_config` (`name`,`value`) VALUES ('recharge','a:1:{i:0;a:2:{s:3:\"pic\";s:53:\"./Public/upload/images/1908/19/210550041176004101.png\";s:5:\"money\";i:20;}}') [ RunTime:0.0091s ]
+NOTIC: [8] Undefined variable: exit C:\Users\Administrator\Desktop\www\gc\Application\Admin\Controller\ConfigController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2019-08-19T21:05:57+08:00 ] 127.0.0.1 /bst_admin.php?m=Admin&c=Config&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: config C:\Users\Administrator\Desktop\www\gc\Application\Runtime\Cache\Admin\1de5151774b99918c40e89f8e283d803.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+

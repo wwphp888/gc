@@ -1,0 +1,98 @@
+
+
+
+        <div class="pageheader notab">
+
+
+            <h1 class="pagetitle">代理设置</h1>
+
+
+            <span class="pagedesc">设置代理的账户信息</span>
+
+
+            
+
+
+        </div><!--pageheader-->
+
+
+        
+
+
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+
+
+        
+
+
+        
+
+
+            <form action='{:U("setAgentAccount",["user_id"=>$user_id,"agent_id"=>$agent_info["id"]])}' class="stdform stdform2" method="post">
+
+
+				<p>
+
+
+					<label>账户名称</label>
+
+
+					<span class="field"><input type="text" value="{$agent_info.username}" name="agent_name" id="agent_name"  class="smallinput" /></span>
+
+
+				</p>
+				<p>
+
+
+					<label>账户密码</label>
+
+
+					<span class="field"><input type="password" name="agent_password" id="url"  class="smallinput" /></span>
+
+
+				</p>
+
+
+
+
+				
+
+
+				<p class="stdformbutton">
+
+
+					<button class="submit radius2">提交</button>
+
+
+					<input type="reset" class="reset radius2" value="重置" />
+
+
+				</p>
+
+                        <input type="hidden" name="user_id" value="{$user_id}">
+                        <input type="hidden" name="agent_id" value='{$agent_info["id"]}'>
+			</form>
+
+
+		<script src="__PUBLIC__/plugins/ueditor1.4.3/ueditor.config.js"></script>
+
+
+			<script src="__PUBLIC__/plugins/ueditor1.4.3/ueditor.all.min.js"></script>
+
+
+			<script>
+
+
+				ue = UE.getEditor('chou_body');
+
+
+			</script>
+
+
+        
+
+
+        </div><!--contentwrapper-->
+
+
+        

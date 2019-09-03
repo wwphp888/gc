@@ -1,0 +1,35 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" style="width: 100%;height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><title>
+个人二维码 - 全民一猜
+</title><link rel="stylesheet" href="/res/touzi/base.css">
+    <link rel="stylesheet" href="/res/touzi/weui.css">
+    <link rel="stylesheet" href="/res/touzi/layer.css">
+
+<meta name="poweredby" content="besttool.cn" />
+</head>
+<body style="width: 100%;height: 100%;text-align: center;background-color: #fff;">
+<!-- <div class="container4" style="width: 100%;height: 100%;text-align: center;">
+ <img src="<?php echo ($img); ?>" width="90" style="margin-top: 110px;">
+</div>
+ -->
+  <img src="/Public/images/timg.gif"  style="margin-top: 100px;">
+ <img src="<?php echo ($img); ?>?<?php echo time();?>"  style="width: 100%;position: fixed;left: 0;top:0;z-index: 10;">
+<div class="weui-tabbar">
+        <!-- <a href="/Ssc/index.html" class="weui-tabbar__item">
+            <i class="my-bet-1 weui-tabbar__icon "></i>
+            <p class="weui-tabbar__label">时时彩</p>
+        </a> -->
+         <a href="/" class="weui-tabbar__item">
+            <i class="dice-icon-1 weui-tabbar__icon "></i>
+            <p class="weui-tabbar__label">猜骰子</p>
+        </a>
+        <a href="/index.php?m=&c=Index&a=usercode" class="weui-tabbar__item">
+            <i class="myShare-icon-2 weui-tabbar__icon "></i>
+            <p class="weui-tabbar__label">分享赚钱</p>
+        </a>
+        <a href="/index.php?m=&c=Index&a=ucenter" class="weui-tabbar__item">
+            <i class="personCenter-icon-1 weui-tabbar__icon "></i>
+            <p class="weui-tabbar__label">个人中心</p>
+        </a>
+    </div>
+</body>
+</html>

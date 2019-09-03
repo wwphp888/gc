@@ -1,0 +1,5 @@
+该目录存放所有模块公用函数
+
+调用方法：
+require_once(SKL_G_FUNCTIONS_PATH.'xxx.php');  
+xxx();

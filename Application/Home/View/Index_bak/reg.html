@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<include file="include/head" title="注册" />
+	</head>
+	<body style=" background:#E0F8F9">
+		<div class="" style=" padding-bottom:30px;">
+			<img src="{$_CFG.site.reg_pic}" style=" width:100%;" />
+		</div>
+		<div class="container" style=" padding-bottom:20px;">
+			<form method="post">
+				<div class="input-group">
+				  <input type="text" class="form-control" name="parent" <if condition="$_GET['parent'] neq ''">value="{$_GET.parent}" readonly</if>>
+				  <span class="input-group-addon">推荐人</span>
+				</div>
+				<div class="form-group" style=" margin-top:15px;">
+				  <input type="text" class="form-control" name="mobile" placeholder="请输入手机号" >
+				</div>
+				<div class="form-group">
+				  <input type="password" class="form-control" id="pass" name="pass" placeholder="请输入登录密码" >
+				</div>
+				<div class="form-group">
+				  <input type="password" class="form-control" id="rpass" name="rpass" placeholder="请再次输入登录密码" >
+				</div>
+				
+				<button type="button" onclick="submitForm()" class="btn btn-primary btn-lg btn-block">提交注册</button>
+				<button type="button" onclick="location.href='{:U('login')}'" class="btn btn-default btn-lg btn-block">已是会员，直接登录</button>
+			</form>
+			<script>
+			function submitForm(){
+				if($("#pass").val() == ''){
+					alert('请输入密码');
+					return false;
+				}
+				if($("#pass").val() != $("#rpass").val()){
+					alert('两次密码不一致');
+					return false;
+				}
+				ajaxFormSubmit();
+			}
+			</script>
+		</div>
+		<include file="include/common" />
+	</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<include file="include/head" title="推广二维码" />
+	</head>
+	<body style="background: #66FFFF;">
+		<include file="include/ucenter_top" />
+		<div class="addr-content">
+			<div class="addr-item">
+				我的推广二维码
+				<a href="{:U('ucenter')}" class="back2ucenter">返回 <span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+			<div class="addr-form" style=" text-align:center;">
+				<img src="{$qrcode}" style=" max-width:100%;" />
+			</div>
+		</div>
+		<include file="include/bottom" />
+	</body>
+</html>

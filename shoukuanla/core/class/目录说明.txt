@@ -1,0 +1,5 @@
+该目录存放：框架核心类库
+
+调用方法：
+require_once(SKL_ClASS_PATH.'xxx.class.php');  
+new xxx();

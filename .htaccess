@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^abc.com$ [NC]
+RewriteRule ^(.*)$ http://www.glshw.net/$1 [R=301,L]
+ </IfModule>
